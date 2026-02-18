@@ -4,7 +4,7 @@
 # For editing purposes, certain figure colors, shapes, and layout arrangements
 # have been modified without affecting the underlying results.
 # All data required to reproduce the analyses can be found here:
-# https://github.com/feixiang1209/Enrichment-of-bacterial-consortia-on-PET-and-cork-yields-candidate-PET-active-enzymes
+# https://github.com/feixiang1209/PET-Cork-bacterial-consortia
 
 
 
@@ -34,4 +34,5 @@ pheatmap(rpkm_clr_sorted,
          fontsize_col = 8,
          annotation_row = annotation_row,  
          cluster_rows = FALSE)             
+
 dev.off()
